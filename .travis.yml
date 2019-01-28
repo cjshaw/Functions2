@@ -4,7 +4,7 @@ language: generic
 
 services:
   - docker
-
+solution: ad440demoApi.sln
 addons:
     apt:
         sources:
