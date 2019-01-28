@@ -26,7 +26,6 @@ script:
 
 deploy:
   skip_cleanup: true
-  provider: script
-  script: bash deploy.sh
+  provider: azure_web_apps
   on:
     branch: master
